@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Stats preview card component</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <!-- Local CSS -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+  <div id="larger-screen">
+    <div class="card">
+      <div class="row g-0">
+        <div class="col-6 left-container">
+          <div class="card-body">
+            <h3 class="card-title"><span>Get </span> <span id="insights">insights</span> <span>that help your business grow.</span></h3>
+            <p class="card-text">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+            
+            <div class="row stats">
+              <div class="col-lg-4 col-md-4">
+                <h5 class="stats-no">10k+</h5>
+              </div>
+              <div class="col-lg-4 col-md-4">
+                <h5 class="stats-no">314</h5>
+              </div>
+              <div class="col-lg-4 col-md-4">
+                <h5 class="stats-no">12M+</h5>
+              </div>
+            </div>
+            <div class="row stats">
+              <div class="col-lg-4 col-md-4">
+                <h5 class="stats-txt">companies</h5>
+              </div>
+              <div class="col-lg-4 col-md-4">
+                <h5 class="stats-txt">templates</h5>
+              </div>
+              <div class="col-lg-4 col-md-4">
+                <h5 class="stats-txt">queries</h5>
+              </div>
+            </div>
+          
+          </div>
+        </div>
+
+        <div class="col-6 card-image">
+          <img src="images/image-header-desktop.jpg" class="card-img" alt="">
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="smaller-screen">
+    <div class="card">
+      <div class="card-image" >
+        <img src="images/image-header-mobile.jpg" alt="">
+      </div>
+      <div class="card-body left-container">
+        <h3 class="card-title"><span>Get </span> <span id="insights">insights</span> <span>that help your business grow.</span></h3>
+        <p class="card-text">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+        <div class="row stats-sm">
+          <div class="row one-top">
+            <h5 class="stats-no">10k+</h5>
+          </div>
+          <div class="row two">
+            <h5 class="stats-txt">companies</h5>
+          </div>
+        </div>
+        <div class="row stats-sm">
+          <div class="row one">
+            <h5 class="stats-no">314</h5>
+          </div>
+          <div class="row two">
+            <h5 class="stats-txt">templates</h5>
+          </div>
+        </div>
+        <div class="row stats-sm">
+          <div class="row one">
+            <h5 class="stats-no">12M+</h5>
+          </div>
+          <div class="row two-bt">
+            <h5 class="stats-txt">queries</h5>  
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+</body>
+
+</html>

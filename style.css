@@ -1,0 +1,105 @@
+/* COMMON SETTINGS */
+body {
+    background-color: hsl(233, 47%, 7%);
+    font-size: 15px;
+}
+.left-container {
+    background-color: hsl(244, 38%, 16%);
+}
+.card{
+    border-color: hsl(233, 47%, 7%);
+}
+#insights {
+    color: hsl(277, 64%, 61%);
+}
+.card-text {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 1.05rem;
+}
+.stats {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.stats-no, .card-title {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: white;
+}
+.stats-txt {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: hsla(0, 0%, 100%, 0.6);
+}
+.card-image {
+    background-color: hsl(277, 85%, 44%);
+}
+img {
+    width: 100%;
+    opacity: 0.5;
+}
+
+
+
+/* FOR LARGER DEVICES - FINISHED*/
+@media (min-width:1577px) {
+    #smaller-screen {
+        /* Make it invisible on widths greater than 1577px */
+        display: none;
+    }
+    .card {
+        max-width: 60%;
+        margin: 13% auto 8% auto;
+    }
+    .card-text {
+        margin-left: 10%;
+        max-width: 400px;
+        margin-top: 5%;
+        margin-bottom: 15%;
+    }
+    .card-title {
+        margin-left: 10%;
+        margin-top: 10%;
+        max-width: 500px;
+        font-size: 2.5rem;
+    }
+}
+
+
+/* SMALLER DEVICES - FINISHED*/
+@media (max-width:1577px) {
+
+    #larger-screen{
+        display: none;
+    }
+    .card {
+        max-width: 70%;
+        margin: 5% auto;
+        text-align: center;
+    }
+    .card-title{
+        font-size: 2.2rem;
+        padding: 0 5%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .card-text{
+        font-size: 1.2rem;
+        margin-bottom: 10%;
+        padding: 0 10%;
+    }
+    .one{
+        margin-top: 5%;
+    }
+    .two-bt{
+        margin-bottom: 5%;
+    }
+    img{
+        max-height: 50vh;
+        max-width: 75vw;
+    }
+    .card-image{
+        max-height: 50vh;
+        max-width: 75vw;
+    }
+}
